@@ -8,7 +8,7 @@ class TopController extends Controller
 {
     public function allUsers()
    {
-       return view("taichihome/index");
+       return view("home/index");
    }
 }
 

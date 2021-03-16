@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('taichihome.index');
+    return view('home.index');
 });
 
 Auth::routes();
 
-Route::get('/taichihome', 'TopController@allUsers');
+Route::get('/home', 'TopController@allUsers');
