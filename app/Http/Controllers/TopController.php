@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class TopController extends Controller
 {
-    public function allUsers()
+    public function index()
    {
-       return view("home/index");
+       return view("top/index");
    }
 }
 
