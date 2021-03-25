@@ -17,4 +17,10 @@ class Contact extends Model
         'email',
         'message',
     ];
+    protected $casts = [
+        'id' => 'integer',
+        'name' => 'string',
+        'email' => 'string',
+        'message' => 'string',
+    ];
 }
