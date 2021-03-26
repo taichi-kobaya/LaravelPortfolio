@@ -1,5 +1,5 @@
       <!-- .works-section -->
-@extends('layout')
+@extends('layouts.top')
 @section('content')
       <section class="works-section section" id="works-section">
         <div class="inner">
