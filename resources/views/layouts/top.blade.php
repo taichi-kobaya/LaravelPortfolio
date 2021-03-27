@@ -9,7 +9,7 @@
   <meta property='og:description' content='Webエンジニア TAICHI KOBAYASHIのポートフォリオサイトです！'>
   <meta property="og:image" content="img/ogp.png">
   <meta name="description" content="Webエンジニア TAICHI KOBAYASHIのポートフォリオサイトです！" />
-  <title>Webエンジニア TAICHI KOBAYASHI ポートフォリオ</title>
+  @yield('title')
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
   <link rel="stylesheet" href="{{ asset('css/reset.css') }}">

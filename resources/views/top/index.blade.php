@@ -1,5 +1,8 @@
       <!-- .works-section -->
 @extends('layouts.top')
+@section('title')
+<title>Webエンジニア TAICHI KOBAYASHI ポートフォリオ</title>
+@endsection
 @section('content')
       <section class="works-section section" id="works-section">
         <div class="inner">
